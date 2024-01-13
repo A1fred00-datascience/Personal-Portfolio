@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site description" />
+    <meta name="keywords" content="your, keywords" />
+    <meta name="author" content="Author" />
+
+    <meta property="og:description" content="your site description" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:site_name" content="Site name" />
+    <meta property="og:image" content="logo" />
+
+    <!-- AOS Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <title>Resources for Students</title>
+
+    <!-- Watch css, run "npm run watch" to watch the class change -->
+    <link rel="stylesheet" href="./assets/base/tailwindcss/output.css" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/base/styles.css">
+    <!-- Font Style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <!-- Minify CSS, make sure you run "npm run watch" and then 
+        "npm run minify" to generate new minify data if there is a change 
+    -->
+    <!-- <link rel="stylesheet" href="./assets/base/tailwindcss/output.min.css"> -->
+</head>
+
+<body class="mx-auto flex h-auto w-full flex-col flex-wrap justify-center overflow-x-hidden scroll-smooth bg-primary">
+    <!-- Navbar -->
+    <nav id="nav"
+        class="translate-y-auto sticky top-0 z-40 h-max w-full flex justify-center bg-primary p-6 transition duration-500 lg:p-4">
+        <div class="flex items-center justify-center text-primary space-x-20 hidden lg:flex nav-links"> <!-- Added nav-links class here -->
+            <!-- Home Button -->
+            <a href="../../index.html" class="text-xl hover:text-secondary lg:text-base">
+                Home
+            </a>
+            <a href="./portfolio.html" class="text-xl hover:text-secondary lg:text-base">
+                Portfolio
+            </a>
+            <a href="./podcast.html" class="text-xl hover:text-secondary lg:text-base">
+                Podcast
+            </a>
+            <a href="./resources.html" class="text-xl hover:text-secondary lg:text-base">
+                Resources for Students
+            </a>
+        </div>
+
+        
+
+        <!-- Nav Icon -->
+        <div class="z-50 flex-none">
+            <div class="flex justify-end lg:hidden">
+                <button id="navButton"
+                    class="flex h-12 w-12 items-center justify-center rounded-full border-2 border-primary">
+                    <!-- Open Icon -->
+                    <svg class="navMenuIcon block w-8 fill-primary" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M4 18q-.425 0-.712-.288Q3 17.425 3 17t.288-.712Q3.575 16 4 16h16q.425 0 .712-.288q.288.287.288.712t-.288.712Q20.425 18 20 18Zm0-5q-.425 0-.712-.288Q3 12.425 3 12t.288-.713Q3.575 11 4 11h16q.425 0 .712.287q.288.288.288.713t-.288.712Q20.425 13 20 13Zm0-5q-.425 0-.712-.287Q3 7.425 3 7t.288-.713Q3.575 6 4 6h16q.425 0 .712.287Q21 6.575 21 7t-.288.713Q20.425 8 20 8Z" />
+                    </svg>
+                    <!-- End Open Icon -->
+
+                    <!-- Close Icon -->
+                    <svg class="navMenuIcon hidden w-8 fill-primary" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="m12 13.4l-4.9 4.9q-.275.275-.7.275q-.425 0-.712-.288q-.287-.288-.287-.713q0-.425.287-.7l4.9-4.9l-4.9-4.9q-.288-.287-.288-.7q0-.425.287-.712q.288-.288 .713-.288q.425 0 .7 .287l4.9 4.9l4.9-4.9q.275-.287.7-.287q.425 0 .712.288q.288.288 .288.713q0 .425-.288 .7l-4.9 4.9l4.9 4.9q.288.275 .288 .7q0 .425-.288 .712q-.288.288-.713.288q-.425 0-.7-.287z" />
+                    </svg>
+                    <!-- End Close Icon -->
+                </button>
+            </div>
+        </div>
+        <!-- End Nav Icon -->
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="page-wrapper flex flex-col h-screen">
+
+
+<!-- Resources Section -->
+<section class="py-10 mb-0" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container mx-auto text-center pb-5">
+        <h1 class="text-4xl font-bold mb-5 text-white italic underline">Resources for Students</h1>
+        <p class="text-xl text-white font-bold">Here are some resources including info, study guides, tips, and useful links to resources that will help you land an internship or full-time position as an undergrad college student in Data Science.</p>
+    </div>
+
+    <div class="container mx-auto grid grid-cols-1 gap-10">
+        <!-- Box 1: Interviewing -->
+        <div class="resource-box p-6 rounded-lg shadow-lg bg-gradient-to-r from-red-500 to-indigo-600 text-white">
+            <h2 class="text-2xl font-bold mb-4 text-center">Interviewing</h2>
+            <p class="text-center">Information and tips on how to prepare and excel in interviews.</p>
+            <div class="text-center mt-6">
+                <a href="https://drive.google.com/drive/folders/1vFJLvc6nTlHIfoHiPXNCxXbSvSnDGa_s?usp=sharing" target="_blank" class="px-4 py-2 rounded-full bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold italic transition-transform transform hover:scale-105">Read More</a>
+            </div>
+        </div>
+
+        <!-- Box 2: Networking -->
+        <div class="resource-box p-6 rounded-lg shadow-lg bg-gradient-to-r from-pink-400 to-orange-500 text-white mt-6">
+            <h2 class="text-2xl font-bold mb-4 text-center">Networking</h2>
+            <p class="text-center">Strategies and platforms for effective networking in the field of Data Science.</p>
+            <div class="text-center mt-6">
+                <a href="https://drive.google.com/drive/folders/1jZzJmAxJoKjb5mKGUMRwODsR-fuMAPhY?usp=sharing" target="_blank" class="px-4 py-2 rounded-full bg-gradient-to-r from-pink-800 to-red-500 text-white font-semibold italic transition-transform transform hover:scale-105">Read More</a>
+            </div>
+        </div>
+
+        <!-- Box 3: Learn Data Science -->
+        <div class="resource-box p-6 rounded-lg shadow-lg bg-gradient-to-r from-red-400 to-blue-500 text-white mt-6">
+            <h2 class="text-2xl font-bold mb-4 text-center">Learn Data Science</h2>
+            <p class="text-center">Comprehensive guides and courses to enhance your Data Science knowledge.</p>
+            <div class="text-center mt-6">
+                <a href="https://drive.google.com/drive/folders/1C7WCrLzeVdQRzRCooV24NUrF1E-kyFDX?usp=sharing" target="_blank" class="px-4 py-2 rounded-full bg-gradient-to-r from-purple-900 to-orange-500 text-white font-semibold italic transition-transform transform hover:scale-105">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Resources for Students Section -->
+
+
+
+    <div class="page-wrapper flex flex-col h-screen justify-between">
+
+    </main>
+    <!-- Footer Section -->
+    <section class="footer-section bg-dark-gray py-10 mt-0">
+
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2 gap-12">
+
+                <!-- Left Text Grid -->
+                <div>
+                    <h2 class="text-white text-4xl font-semibold mb-8">Contact Me</h2>
+                    <p class="text-white text-lg font-light mb-4">Boston, MA 02114</p>
+                    <p class="text-white text-lg font-light mb-8">United States</p>
+                    <a href="mailto:alfredojr.serrano@gmail.com"
+                        class="text-blue-600 font-medium hover:text-blue-800 transition duration-300 ease-in-out">
+                        alfredojr.serrano@gmail.com</a>
+                </div>
+
+                <!-- Right Icons Grid -->
+                <div class="flex justify-end items-start">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/alfredoserrano-datascientist?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACwIT2sB8o0VIuaZfuFxz0KaMB1Lisy5C4M&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BvBgLZj4kS7eoc47NaznYOQ%3D%3D"
+                        target="_blank" class="mx-3"><img src="./assets/img/linkedin.png" alt="LinkedIn"
+                                width="32"></a>
+                        <a href="https://github.com/A1fred00-datascience" target="_blank" class="mx-3"><img
+                                src="./assets/img/github.png" alt="Github" width="32"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+
+</body>
+<!-- Custom Javascript -->
+<script src="./assets/custom/js/script.js"></script>
+
+<!-- Custom Javascript -->
+<script src="./html-version/docs/assets/custom/js/script.js"></script>
+
+
+<!-- Navbar Javascript -->
+<script>
+    document.getElementById("navButton").addEventListener("click", function () {
+// Toggle the navigation links
+const navLinks = document.querySelector(".nav-links");
+navLinks.classList.toggle("hidden"); // Toggle 'hidden' instead of 'active'
+
+// Toggle the open and close icons
+const openIcon = document.querySelector(".navMenuIcon.block");
+const closeIcon = document.querySelector(".navMenuIcon.hidden");
+openIcon.classList.toggle("hidden");
+closeIcon.classList.toggle("block");
+});
+
+</script>
+
+    <!-- Transition Javascript -->
+    <script>
+        AOS.init();
+    </script>
+
+</html>

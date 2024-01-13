@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Site description" />
+    <meta name="keywords" content="your, keywords" />
+    <meta name="author" content="Author" />
+
+    <meta property="og:description" content="your site description" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:site_name" content="Site name" />
+    <meta property="og:image" content="logo" />
+
+    <title>Sports Analytics – Using Python to create Spain’s ideal starting XI for the World</title>
+
+    <!-- Watch css, run "npm run watch" to watch the class change -->
+    <link rel="stylesheet" href="../assets/base/tailwindcss/output.css" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/base/styles.css">
+    <!-- Font Style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <!-- AOS Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Minify CSS, make sure you run "npm run watch" and then 
+        "npm run minify" to generate new minify data if there is a change 
+    -->
+    <!-- <link rel="stylesheet" href="./assets/base/tailwindcss/output.min.css"> -->
+    <!-- Owl Carousel CSS -->
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body class="mx-auto flex h-auto w-full flex-col flex-wrap justify-center overflow-x-hidden scroll-smooth bg-primary">
+    <!-- Navbar -->
+    <nav id="nav"
+        class="translate-y-auto sticky top-0 z-40 h-max w-full flex justify-center bg-primary p-6 transition duration-500 lg:p-4">
+        <div class="flex items-center justify-center text-primary space-x-20 hidden lg:flex nav-links">
+            <!-- Added nav-links class here -->
+            <!-- Home Button -->
+            <a href="../../../index.html" class="text-xl hover:text-secondary lg:text-base">
+                Home
+            </a>
+            <a href="../portfolio.html" class="text-xl hover:text-secondary lg:text-base">
+                Portfolio
+            </a>
+            <a href="../podcast.html" class="text-xl hover:text-secondary lg:text-base">
+                Podcast
+            </a>
+            <a href="../resources.html" class="text-xl hover:text-secondary lg:text-base">
+                Resources for Students
+            </a>
+        </div>
+
+
+
+        <!-- Nav Icon -->
+        <div class="z-50 flex-none">
+            <div class="flex justify-end lg:hidden">
+                <button id="navButton"
+                    class="flex h-12 w-12 items-center justify-center rounded-full border-2 border-primary">
+                    <!-- Open Icon -->
+                    <svg class="navMenuIcon block w-8 fill-primary" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M4 18q-.425 0-.712-.288Q3 17.425 3 17t.288-.712Q3.575 16 4 16h16q.425 0 .712-.288q.288.287.288.712t-.288.712Q20.425 18 20 18Zm0-5q-.425 0-.712-.288Q3 12.425 3 12t.288-.713Q3.575 11 4 11h16q.425 0 .712.287q.288.288.288.713t-.288.712Q20.425 13 20 13Zm0-5q-.425 0-.712-.287Q3 7.425 3 7t.288-.713Q3.575 6 4 6h16q.425 0 .712.287Q21 6.575 21 7t-.288.713Q20.425 8 20 8Z" />
+                    </svg>
+                    <!-- End Open Icon -->
+
+                    <!-- Close Icon -->
+                    <svg class="navMenuIcon hidden w-8 fill-primary" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="m12 13.4l-4.9 4.9q-.275.275-.7.275q-.425 0-.712-.288q-.287-.288-.287-.713q0-.425.287-.7l4.9-4.9l-4.9-4.9q-.288-.287-.288-.7q0-.425.287-.712q.288-.288 .713-.288q.425 0 .7 .287l4.9 4.9l4.9-4.9q.275-.287.7-.287q.425 0 .712.288q.288.288 .288.713q0 .425-.288 .7l-4.9 4.9l4.9 4.9q.288.275 .288 .7q0 .425-.288 .712q-.288.288-.713.288q-.425 0-.7-.287z" />
+                    </svg>
+                    <!-- End Close Icon -->
+                </button>
+            </div>
+        </div>
+        <!-- End Nav Icon -->
+    </nav>
+    <!-- End Navbar -->
+
+
+
+
+    <!-- Project Section -->
+    <!-- Title -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600" data-aos="fade-up" data-aos-duration="1000"
+        style="padding-top: 20px;">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-white">Sports Analytics – Using Python to create Spain’s ideal starting
+                XI for the World</h2>
+        </div>
+    </section>
+
+    <!-- Header Image -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600" data-aos="fade-up" data-aos-duration="1000"
+        style="padding-bottom: 0px;">
+        <div class="container mx-auto text-center">
+            <img src="../assets/img/Projects/wc.jpeg" alt="Header Image"
+                style="width: 80%; height: auto; margin: 0 auto;" class="rounded-lg shadow-xl">
+        </div>
+    </section>
+
+    <!-- Objective -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600" data-aos="fade-up" data-aos-duration="1000"
+        style="padding-top: 40px;">
+        <div class="container mx-auto text-left py-10"
+            style="padding: 10px; border: 2px solid #FFFFFF; border-radius: 15px;">
+            <h3 class="text-3xl font-bold text-white">Objective:</h3>
+            <p class="text-gray-200 mt-4">
+                Model Spain’s most optimal starting XI based on the video game FIFA 22 data.
+            </p>
+        </div>
+    </section>
+
+    <!-- Buttons Section -->
+    <section class="text-center py-10" data-aos="fade-up" data-aos-duration="1000">
+        <!-- FIFA 22 Player's Dataset -->
+        <a href="https://drive.google.com/file/d/12DZJ-mEvI6o7CSay1rODlBaxTHHyiLNn/view?usp=share_link" target="_blank"
+            style="display: inline-block; background: linear-gradient(90deg, #7D6EFE 0%, #FF758C 100%); color: white; font-weight: bold; padding: 15px 30px; text-align: center; text-decoration: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); margin: 10px; font-size: 1rem;">
+            FIFA 22 Player's Dataset
+        </a>
+
+        <!-- Python Code – Spain's XI -->
+        <a href="https://drive.google.com/file/d/1p-lPIPHy7sRUY-g2dcZgatOjN6DWLnjX/view?usp=share_link" target="_blank"
+            style="display: inline-block; background: linear-gradient(90deg, #0072F5 0%, #00C6FF 100%); color: white; font-weight: bold; padding: 15px 30px; text-align: center; text-decoration: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); margin: 10px; font-size: 1rem;">
+            Python Code – Spain's XI
+        </a>
+    </section>
+
+
+
+
+
+
+    <!-- Conclusion Section with Images -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600 py-10" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container mx-auto text-left">
+            <h3 class="text-3xl font-bold text-white">Study:</h3>
+
+            <!-- Text -->
+            <div class="text-white mt-8">
+                <p>We will download the FIFA 22 video game dataset for this study. The dataset provides numerous data
+                    points and interesting facts and statistics about the players on an individual level, fortunately
+                    for this analysis we will be using only a few of the columns on the pertinent dataset… All the
+                    transformations and mining of the dataset has been already inputted into the code (So that you don’t
+                    have to do it). Some of the mining includes filtering out by the nations that will participate on
+                    the tournament as well as the players who have been injured recently.</p>
+            </div>
+
+            <!-- Image -->
+            <div class="relative mt-8">
+                <img src="../assets/img/wc/1.png" alt="Image 1" onclick="openLightbox(this.src);"
+                    class="rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            </div>
+            
+            <!-- Text -->
+            <div class="text-white mt-8">
+                <p>Once the cleansing of data is done we will proceed to the formatting of the teams as well as for the
+                    creation of the most optimal 26-Man squad, once that is done we will dive into the determination of
+                    the best formations or the ones that would fit Spain the better.</p>
+                </br>
+                </br>
+                <p>Now that we’ve defined the criteria we will use a series of functions that will retrieve the best
+                    players on each position, we will determine this by a series of algorithms based around the overall
+                    ranking of the players in Spain (Unfortunately the dataset is way too extensive and defining more
+                    criteria would just make things messy, hence the decision to take the overall of the player’s as the
+                    main metric).</p>
+            </div>
+
+
+            <!-- Image -->
+            <div class="relative mt-8">
+                <img src="../assets/img/wc/2.png" alt="Image 2" onclick="openLightbox(this.src);"
+                    class="rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            </div>
+
+            <!-- Text -->
+            <div class="text-white mt-8">
+                <p>The final lines to determine the team are pretty basic as we are just selecting the team we want to
+                    have a line u pictured along with the dictated formation. I invite you to recycle it as this code
+                    can be used for all the teams in the World Cup.</p>
+                </br>
+                </br>
+                <p>Once the hard coding is done and you can find your ideal XI on the console there is a tool I found on
+                    the internet that uses the package turtle (A python package that allows you to ¨paint ¨ into plots).
+                    I found this piece of code from a YouTube tutorial in case you want to use it for your future
+                    projects. I’m also linking the documentation of the package used to create the soccer pitch on an
+                    external screen.</p>
+            </div>
+
+
+            <!-- Buttons Section -->
+            <section class="text-center py-10" data-aos="fade-up" data-aos-duration="1000">
+                <!-- First Button: FIFA 22 Player's Dataset -->
+                <a href="https://youtu.be/oKqP8AQS9Gk" target="_blank"
+                    style="display: inline-block; background: linear-gradient(90deg, rgb(206, 69, 15) 0%, #FF758C 100%); color: white; font-weight: bold; padding: 15px 30px; text-align: center; text-decoration: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); margin: 10px; font-size: 1rem;">
+                    Link to YouTube Video
+                </a>
+
+                <!-- Second Button: Python Code – Spain's XI -->
+                <a href="https://mplsoccer.readthedocs.io/en/latest/" target="_blank"
+                    style="display: inline-block; background: linear-gradient(90deg, #f59f00 0%, #ffae00 100%); color: white; font-weight: bold; padding: 15px 30px; text-align: center; text-decoration: none; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); margin: 10px; font-size: 1rem;">
+                    Documentation of mplsoccer package
+                </a>
+            </section>
+
+            <!-- Text -->
+            <div class="text-white mt-8">
+                <p>The last part of the code, I haven’t been able to automate this yet but you must input the names of
+                    the players that the model selected manually. As this is a ¨painting ¨ over the pitch and it is done
+                    by vectors you must write down the name of the players by position and you will be done with your
+                    ideal XI for the World Cup!</p>
+            </div>
+
+
+            <!-- Image -->
+            <div class="relative mt-8">
+                <img src="../assets/img/wc/3.png" alt="Image 3" onclick="openLightbox(this.src);"
+                    class="rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            </div>
+
+            <!-- Text -->
+            <div class="text-white mt-8">
+                <p>This is what the final product should look like, it will look different depending on the formation
+                    and players… But this is it! As a fun fact, I ended this project on November 27th, 2022 while Spain
+                    was playing against Germany… The model selected 6 out of the 11 players that started on that game
+                    (Though I considered 3 players that the national coach decided not to call for the World Cup)… I
+                    encourage you to try it for other nations and see the results for yourself!</p>
+            </div>
+
+            <!-- Image -->
+            <div class="relative mt-8">
+                <img src="../assets/img/wc/4.png" alt="Image 4" onclick="openLightbox(this.src);"
+                    class="rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            </div>
+
+            <!-- Text -->
+            <div class="text-white mt-8">
+                <p>*This code was created inspired from the internet and different sources, the dataset was obtained
+                    from FIFA (The video game, which can be found online). If there’s any intend for you to use the code
+                    for your personal projects or learning I encourage you to do so, If you have any questions send me
+                    an email to aserranofigueroa@su.suffolk.edu</p>
+            </div>
+
+            <!-- Conclusion Text -->
+            <div class="text-white mt-8">
+                <p>-Alfredo S.</p>
+            </div>
+    </section>
+
+
+
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox">
+        <span class="close cursor-pointer" onclick="closeLightbox();">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="caption" id="caption"></div>
+    </div>
+
+
+
+
+
+
+    </main>
+    <!-- Footer Section -->
+    <section class="footer-section bg-dark-gray py-10">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2 gap-12">
+
+                <!-- Left Text Grid -->
+                <div>
+                    <h2 class="text-white text-4xl font-semibold mb-8">Contact Me</h2>
+                    <p class="text-white text-lg font-light mb-4">Boston, MA 02114</p>
+                    <p class="text-white text-lg font-light mb-8">United States</p>
+                    <a href="mailto:alfredojr.serrano@gmail.com"
+                        class="text-blue-600 font-medium hover:text-blue-800 transition duration-300 ease-in-out">
+                        alfredojr.serrano@gmail.com</a>
+                </div>
+
+                <!-- Right Icons Grid -->
+                <div class="flex justify-end items-start">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/alfredoserrano-datascientist?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACwIT2sB8o0VIuaZfuFxz0KaMB1Lisy5C4M&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BvBgLZj4kS7eoc47NaznYOQ%3D%3D"
+                        target="_blank" class="mx-3"><img src="../assets/img/linkedin.png" alt="LinkedIn" width="32"></a>
+                        <a href="https://github.com/A1fred00-datascience" target="_blank" class="mx-3"><img
+                                src="../assets/img/github.png" alt="Github" width="32"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+
+</body>
+<!-- Custom Javascript -->
+<script src="./assets/custom/js/script.js"></script>
+
+<script>
+    document.getElementById("navButton").addEventListener("click", function () {
+        // Toggle the navigation links
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+
+        // Toggle the open and close icons
+        const openIcon = document.querySelector(".navMenuIcon.block");
+        const closeIcon = document.querySelector(".navMenuIcon.hidden");
+        openIcon.classList.toggle("hidden");
+        closeIcon.classList.toggle("block");
+    });
+</script>
+
+<!-- Transition Javascript -->
+<script>
+    AOS.init();
+</script>
+
+
+<!-- JavaScript for Lightbox -->
+<script>
+    function openLightbox(imgSrc) {
+        document.getElementById("lightbox-img").src = imgSrc;
+        document.getElementById("lightbox").style.display = "block";
+    }
+
+    function closeLightbox() {
+        document.getElementById("lightbox").style.display = "none";
+    }
+</script>
+
+
+</html>

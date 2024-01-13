@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Site description" />
+    <meta name="keywords" content="your, keywords" />
+    <meta name="author" content="Author" />
+
+    <meta property="og:description" content="your site description" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:site_name" content="Site name" />
+    <meta property="og:image" content="logo" />
+
+    <title>Sports Analytics: College Basketball</title>
+
+    <!-- Watch css, run "npm run watch" to watch the class change -->
+    <link rel="stylesheet" href="../assets/base/tailwindcss/output.css" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/base/styles.css">
+    <!-- Font Style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <!-- AOS Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Minify CSS, make sure you run "npm run watch" and then 
+        "npm run minify" to generate new minify data if there is a change 
+    -->
+    <!-- <link rel="stylesheet" href="./assets/base/tailwindcss/output.min.css"> -->
+    <!-- Owl Carousel CSS -->
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body class="mx-auto flex h-auto w-full flex-col flex-wrap justify-center overflow-x-hidden scroll-smooth bg-primary">
+    <!-- Navbar -->
+    <nav id="nav"
+        class="translate-y-auto sticky top-0 z-40 h-max w-full flex justify-center bg-primary p-6 transition duration-500 lg:p-4">
+        <div class="flex items-center justify-center text-primary space-x-20 hidden lg:flex nav-links">
+            <!-- Home Button -->
+            <a href="../../../index.html" class="text-xl hover:text-secondary lg:text-base">
+                Home
+            </a>
+            <a href="../portfolio.html" class="text-xl hover:text-secondary lg:text-base">
+                Portfolio
+            </a>
+            <a href="../podcast.html" class="text-xl hover:text-secondary lg:text-base">
+                Podcast
+            </a>
+            <a href="../resources.html" class="text-xl hover:text-secondary lg:text-base">
+                Resources for Students
+            </a>
+        </div>
+
+
+
+        <!-- Nav Icon -->
+        <div class="z-50 flex-none">
+            <div class="flex justify-end lg:hidden">
+                <button id="navButton"
+                    class="flex h-12 w-12 items-center justify-center rounded-full border-2 border-primary">
+                    <!-- Open Icon -->
+                    <svg class="navMenuIcon block w-8 fill-primary" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M4 18q-.425 0-.712-.288Q3 17.425 3 17t.288-.712Q3.575 16 4 16h16q.425 0 .712-.288q.288.287.288.712t-.288.712Q20.425 18 20 18Zm0-5q-.425 0-.712-.288Q3 12.425 3 12t.288-.713Q3.575 11 4 11h16q.425 0 .712.287q.288.288.288.713t-.288.712Q20.425 13 20 13Zm0-5q-.425 0-.712-.287Q3 7.425 3 7t.288-.713Q3.575 6 4 6h16q.425 0 .712.287Q21 6.575 21 7t-.288.713Q20.425 8 20 8Z" />
+                    </svg>
+                    <!-- End Open Icon -->
+
+                    <!-- Close Icon -->
+                    <svg class="navMenuIcon hidden w-8 fill-primary" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="m12 13.4l-4.9 4.9q-.275.275-.7.275q-.425 0-.712-.288q-.287-.288-.287-.713q0-.425.287-.7l4.9-4.9l-4.9-4.9q-.288-.287-.288-.7q0-.425.287-.712q.288-.288 .713-.288q.425 0 .7 .287l4.9 4.9l4.9-4.9q.275-.287.7-.287q.425 0 .712.288q.288.288 .288.713q0 .425-.288 .7l-4.9 4.9l4.9 4.9q.288.275 .288 .7q0 .425-.288 .712q-.288.288-.713.288q-.425 0-.7-.287z" />
+                    </svg>
+                    <!-- End Close Icon -->
+                </button>
+            </div>
+        </div>
+        <!-- End Nav Icon -->
+    </nav>
+    <!-- End Navbar -->
+
+
+
+
+    <!-- Project Section -->
+    <!-- Blog Post Section: Title -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container mx-auto text-center px-4 lg:px-0">
+            <h2 class="text-4xl font-bold text-white">Sports Analytics: College Basketball</h2>
+        </div>
+    </section>
+
+    <!-- Header Image and Objective -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container mx-auto px-4 lg:px-0">
+            <div class="flex justify-center">
+                <img src="../assets/img/collegebball/collegeball.jpg" alt="Header Image"
+                    style="max-width: 700px; height: auto; margin-top: 20px; margin-bottom: 40px;"
+                    class="rounded-lg shadow-xl">
+            </div>
+    </section>
+
+    <!-- Objective -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600" data-aos="fade-up" data-aos-duration="1000"
+        style="padding-top: 40px;">
+        <div class="container mx-auto text-left py-10"
+            style="padding: 10px; border: 2px solid #FFFFFF; border-radius: 15px;">
+            <h3 class="text-3xl font-bold text-white">Objective:</h3>
+            <p class="text-gray-200 mt-4">
+                Understand how different statistical factors can make a college basketball team successful.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Tableau Link Button -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600" data-aos="fade-down" data-aos-duration="1000"
+        style="padding-top: 40px; padding-bottom: 40px;">
+        <div class="container mx-auto text-left">
+            <!-- Text above the button -->
+            <p style="color: white; margin-bottom: 20px;">
+                *We obtained our dataset from kaggle.com – College Basketball Dataset
+                <br><br>
+                Click on the button below to access R Code —> Open R Studio project & Run the code to display results &
+                visuals
+            </p>
+
+            <!-- Button Container -->
+            <div class="text-center">
+                <!-- Button -->
+                <a href="https://drive.google.com/file/d/1vPD2_AYF68WZOy1Ydpsnwbo4UYsHPnMV/view?usp=sharing"
+                    target="_blank"
+                    style="display: inline-block; background-image: linear-gradient(to right, #945112, #745338, #ffffff73); color: white; font-weight: bold; padding: 20px 30px; text-align: center; text-decoration: none; border-radius: 0; box-shadow: 0 2px 4px rgba(204, 123, 17, 0.2); font-size: 1.25em;">
+                    R Studio Code
+                </a>
+            </div>
+
+            <!-- Text  -->
+            <p style="color: white; margin-top: 20px;">
+                We will clean the data in order to work with an accurate model. In our current database, we observe a
+                total of 2455 variables along with 24 columns. We have data from the years 2013 to 2019. For
+                presentation purposes, I’ll subset the database per year and use the 2019 model.
+            </p>
+        </div>
+    </section>
+
+
+
+
+    <!-- Method -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container mx-auto text-left py-10">
+            <h3 class="text-3xl font-bold text-white">Methodology:</h3>
+            <p class="text-gray-200 mt-4">
+                For the data preprocessing, we will perform the next steps:
+            <ul class="text-gray-200 mt-4 list-disc pl-5">
+                <li>We create a binary variable which will be WAB01 – Wins above bubble (binary).</li>
+                <li>We will insert a new column full of variables. Losses (# of games – # of wins).</li>
+                <li>Remove WAB because we made it into a binary variable. Also removed POSTSEASON and SEED due to a
+                    great number of NAs. Also, TEAM & CONF were taken out since they were strings.</li>
+                <li>We begin to check for correlation amongst variables.</li>
+            </ul>
+            <p class="text-gray-200 mt-4">
+                *From a basketball perspective, we expect that different variables possess a high correlation with
+                either Wins or BARTHAG (Power Ranking) since our main hypothesis is that the rest of the variables
+                should have an impact on these 2
+            </p>
+            </br>
+            <p class="text-gray-200 mt-4">
+                EX:Logically the percentage of X3P should help determine how many wins a team should have*
+            </p>
+            </br>
+            <p class="text-gray-200 mt-4">
+                Now that we’ve cleaned our model and tested for correlation we’ve decided to subset our Dataset by
+                years. Subsetting from 2013 to 2019. We will perform different subsets while also omitting NA values.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Study Section with Images -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600 py-10" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container mx-auto text-left">
+            <h3 class="text-3xl font-bold text-white">Study:</h3>
+
+
+
+            <!-- Study Text -->
+            <div class="text-white mt-8">
+                <p>Now that we’ve subsetted by years we will start performing linear regression in order to test
+                    different models. Primarily we would like to develop at least 2 models. Both of them will use the
+                    Power Ranking (BARTHAG) as the explanatory variable but we will test the impact of the predictor “W”
+                    (Wins) in just one model.</p>
+            </div>
+
+            <!-- Image -->
+            <div class="relative mt-8">
+                <img src="../assets/img/collegebball/1.png" alt="Image 1" onclick="openLightbox(this.src);"
+                    class="rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            </div>
+    </section>
+
+
+    <!-- Conclusion Section with Images -->
+    <section class="bg-gradient-to-r from-navy-500 to-indigo-600 py-10" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container mx-auto text-left">
+            <h3 class="text-3xl font-bold text-white">Conclusion:</h3>
+            <!-- Conclusion Text -->
+            <div class="text-white mt-8">
+                <p>The best-fitting model for our analysis is model #2 since we found that it’s the less biased one
+                    which also possesses a great adjusted R-Squared.</p>
+                </br>
+                <p>We’ll start by checking for influential observations through the hat stat and cook’s distance (2
+                    rules)</p>
+            </div>
+
+            <!-- Image -->
+            <div class="relative mt-8">
+                <img src="../assets/img/collegebball/2.png" alt="Image 1" onclick="openLightbox(this.src);"
+                    class="rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            </div>
+
+            <div class="text-white mt-8">
+                <p>Now we’ll test for the multicollinearity of the model to make sure that there’s no possibility of
+                    bias in the selected regression model. After testing for multicollinearity we’ll begin testing for
+                    linearity of the first 2 regression models since we find these 2 to be the ones that represent the
+                    data on a more accurate way (Through Adj. R^2)
+                    </br>
+                    </br>
+                    Let’s create diagnostic plots in order to make the analysis easier.
+                </p>
+
+                <!-- Image -->
+                <div class="relative mt-8">
+                    <img src="../assets/img/collegebball/3.png" alt="Image 1" onclick="openLightbox(this.src);"
+                        class="rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+                </div>
+
+                <div class="text-white mt-8">
+                    <p>We will create training and test datasets to perform predictions and find error rates along with
+                        knn models.
+                        </br>
+                        </br>
+                        Now we’ll develop more advanced visualizations, we’ll include the add-in package of
+                        ggThemeAssist which will allow us to experiment with graphs in real-time.
+                    </p>
+
+
+                    <!-- Video -->
+                    <div class="relative mt-8">
+                        <video src="../assets/img/collegebball/Screen-Recording-2022-05-01-at-11.41.01-PM.mov"
+                            alt="Video Thumbnail" onclick="openLightbox(this.src);"
+                            class="rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+                            controls></video>
+                    </div>
+
+                    <div class="text-white mt-8">
+                        <p>Our main objective was to discover which stats impact a teams success the most, which we
+                            determined was represented with 3 main stats: wins, BARTHAG (Power Ranking), and wab01 (Wins
+                            above Buble – Binary) we found shooting percentage to be a significant statistic in every
+                            model. Specifically, 2 point shooting percentage has a significant positive affect on
+                            BARTHAG, compared to three point shooting percentage. This means teams designed to shoot
+                            often and close to the basket see success more often. We also found that allowed two and
+                            three point shot percentage negatively impacts BARTHAG more than two and three point
+                            shooting percentage positively impacts BARTHAG. Overall, ADJDE, x3p_d, x2p_d, and other
+                            defense stats significantly effect a teams success. This means defense is very important to
+                            a team’s success of a team with regards to determining success.
+                            </br>
+                            </br>
+                            Teams that allow a lot of shots have a very difficult time finding success.
+                            </br>
+                            </br>
+                            PS: I overall enjoyed this project since it allowed me to experiment with data cleaning on a
+                            machine learning model, along with this I was able to explore new forms of visualization
+                            techniques like interactive plots through the ggiraph & trelliscope packages.
+                        </p>
+
+                        <!-- Conclusion Text -->
+                        <div class="text-white mt-8">
+                            <p>-Alfredo S.</p>
+                        </div>
+    </section>
+
+
+
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox">
+        <span class="close cursor-pointer" onclick="closeLightbox();">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="caption" id="caption"></div>
+    </div>
+
+
+
+
+
+
+    </main>
+    <!-- Footer Section -->
+    <section class="footer-section bg-dark-gray py-10">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2 gap-12">
+
+                <!-- Left Text Grid -->
+                <div>
+                    <h2 class="text-white text-4xl font-semibold mb-8">Contact Me</h2>
+                    <p class="text-white text-lg font-light mb-4">Boston, MA 02114</p>
+                    <p class="text-white text-lg font-light mb-8">United States</p>
+                    <a href="mailto:alfredojr.serrano@gmail.com"
+                        class="text-blue-600 font-medium hover:text-blue-800 transition duration-300 ease-in-out">
+                        alfredojr.serrano@gmail.com</a>
+                </div>
+
+                <!-- Right Icons Grid -->
+                <div class="flex justify-end items-start">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/alfredoserrano-datascientist?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACwIT2sB8o0VIuaZfuFxz0KaMB1Lisy5C4M&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BvBgLZj4kS7eoc47NaznYOQ%3D%3D"
+                        target="_blank" class="mx-3"><img src="../assets/img/linkedin.png" alt="LinkedIn" width="32"></a>
+                        <a href="https://github.com/A1fred00-datascience" target="_blank" class="mx-3"><img
+                                src="../assets/img/github.png" alt="Github" width="32"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+
+</body>
+<!-- Custom Javascript -->
+<script src="./assets/custom/js/script.js"></script>
+
+<script>
+    document.getElementById("navButton").addEventListener("click", function () {
+        // Toggle the navigation links
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+
+        // Toggle the open and close icons
+        const openIcon = document.querySelector(".navMenuIcon.block");
+        const closeIcon = document.querySelector(".navMenuIcon.hidden");
+        openIcon.classList.toggle("hidden");
+        closeIcon.classList.toggle("block");
+    });
+</script>
+
+<!-- Transition Javascript -->
+<script>
+    AOS.init();
+</script>
+
+
+<!-- JavaScript for Lightbox -->
+<script>
+    function openLightbox(imgSrc) {
+        document.getElementById("lightbox-img").src = imgSrc;
+        document.getElementById("lightbox").style.display = "block";
+    }
+
+    function closeLightbox() {
+        document.getElementById("lightbox").style.display = "none";
+    }
+</script>
+
+
+</html>
